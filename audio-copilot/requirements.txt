@@ -1,0 +1,5 @@
+openai>=1.30
+sounddevice>=0.4
+soundfile>=0.12
+tkinterweb
+python-dotenv
