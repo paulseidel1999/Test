@@ -1,0 +1,10 @@
+# Default owner for all files
+* @paulseidel1999
+
+# UI files
+/ui/ @paulseidel1999
+
+# Workflow and policy files
+/.github/ @paulseidel1999
+/CONTRIBUTING.md @paulseidel1999
+/SECURITY.md @paulseidel1999
