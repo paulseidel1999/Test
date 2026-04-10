@@ -20,7 +20,9 @@ const html = fs.readFileSync(htmlPath, "utf8");
 const script = fs.readFileSync(jsPath, "utf8");
 
 assert(html.includes('id="action-btn"'), "Missing action button in ui/index.html");
+assert(html.includes('id="status-msg"'), "Missing status message region in ui/index.html");
 assert(script.includes("action-btn"), "Missing action button hookup in ui/script.js");
+assert(script.includes("status-msg"), "Missing status message hookup in ui/script.js");
 assert(script.includes("addEventListener"), "Missing click handler in ui/script.js");
 
 console.log("Smoke test passed.");
