@@ -11,6 +11,7 @@ Oeffnen Sie `index.html` in einem Browser unter Windows, um die Oberflaeche zu t
 
 Weitere Beitraege und Review-Ablauf: siehe `CONTRIBUTING.md`.
 Sicherheitsmeldungen: siehe `SECURITY.md`.
+QA- und Regressionstests: siehe `QA_CHECKLIST.md`.
 
 ## QA und lokaler Test
 
