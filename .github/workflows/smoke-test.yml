@@ -7,6 +7,10 @@ on:
       - codex/**
   pull_request:
 
+concurrency:
+  group: smoke-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -18,6 +22,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+          cache: "npm"
 
-      - name: Run smoke test
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run smoke tests
         run: npm test
