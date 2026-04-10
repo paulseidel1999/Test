@@ -22,5 +22,10 @@ npm test
 ```
 
 Der Smoke-Test prueft, dass die zentralen UI-Dateien vorhanden sind und die Button-Interaktion verdrahtet ist.
+Optionaler Browser-Smoketest:
+
+```bash
+npm run test:e2e
+```
 
 Zusätzlich läuft dieser Test automatisch per GitHub Actions bei Pushes und Pull Requests.
