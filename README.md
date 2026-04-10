@@ -9,6 +9,8 @@ Die Dateien befinden sich im Ordner `ui`:
 
 Oeffnen Sie `index.html` in einem Browser unter Windows, um die Oberflaeche zu testen.
 
+Weitere Beitraege und Review-Ablauf: siehe `CONTRIBUTING.md`.
+
 ## QA und lokaler Test
 
 Fuehren Sie im Repository aus:
