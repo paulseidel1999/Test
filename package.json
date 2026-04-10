@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "test": "node tests/smoke.test.js",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "lint": "eslint ui/script.js tests/**/*.js playwright.config.js"
   },
   "devDependencies": {
-    "@playwright/test": "^1.54.0"
+    "@playwright/test": "^1.54.0",
+    "eslint": "^8.57.1"
   }
 }

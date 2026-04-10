@@ -30,4 +30,10 @@ npm run test:e2e
 
 Im CI laufen E2E-Tests mit Retry- und Trace-Unterstuetzung fuer stabilere Diagnose bei Flakes.
 
+Zusätzlicher Qualitaetscheck:
+
+```bash
+npm run lint
+```
+
 Zusätzlich läuft dieser Test automatisch per GitHub Actions bei Pushes und Pull Requests.
